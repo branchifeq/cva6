@@ -1,0 +1,132 @@
+[
+  {
+    "id": 37186821074,
+    "source": "github-actions",
+    "simulator": "verilator",
+    "run_number": 1,
+    "status": "completed",
+    "conclusion": "success",
+    "html_url": "https://github.com/branchifeq/cva6/actions/runs/37186821074",
+    "head_branch": "master",
+    "head_sha": "81245a47",
+    "event": "push",
+    "created_at": "2026-10-04T07:46:40Z",
+    "updated_at": "2026-10-04T09:06:04Z",
+    "run_started_at": "2026-10-04T07:46:40Z",
+    "duration_seconds": 4764,
+    "total_jobs": 9,
+    "passed_jobs": 9,
+    "failed_jobs": 0,
+    "skipped_jobs": 0,
+    "jobs": [
+      {
+        "name": "execute-riscv32-tests (dv-riscv-arch-test, cv32a65x, veri-testharness)",
+        "conclusion": "success",
+        "started_at": "2026-10-04T08:18:44Z",
+        "completed_at": "2026-10-04T08:41:22Z",
+        "duration_seconds": 1358,
+        "html_url": "https://github.com/branchifeq/cva6/actions/runs/37186821074/job/111395534383",
+        "arch": "rv32",
+        "config": "cv32a65x",
+        "testcase": "dv-riscv-arch-test",
+        "simulator": "veri-testharness"
+      },
+      {
+        "name": "execute-riscv64-tests (cv64a6_imafdc_tests, cv64a6_imafdc_sv39, veri-testharness)",
+        "conclusion": "success",
+        "started_at": "2026-10-04T08:18:44Z",
+        "completed_at": "2026-10-04T08:25:47Z",
+        "duration_seconds": 423,
+        "html_url": "https://github.com/branchifeq/cva6/actions/runs/37186821074/job/111395534468",
+        "arch": "rv64",
+        "config": "cv64a6_imafdc_sv39",
+        "testcase": "cv64a6_imafdc_tests",
+        "simulator": "veri-testharness"
+      },
+      {
+        "name": "execute-riscv64-tests (pmp_lsu_transaction, cv64a6_imafdc_sv39, veri-testharness)",
+        "conclusion": "success",
+        "started_at": "2026-10-04T08:18:45Z",
+        "completed_at": "2026-10-04T08:25:03Z",
+        "duration_seconds": 378,
+        "html_url": "https://github.com/branchifeq/cva6/actions/runs/37186821074/job/111395534484",
+        "arch": "rv64",
+        "config": "cv64a6_imafdc_sv39",
+        "testcase": "pmp_lsu_transaction",
+        "simulator": "veri-testharness"
+      },
+      {
+        "name": "execute-riscv64-tests (dv-riscv-arch-test, cv64a6_imafdc_sv39_hpdcache, veri-testharness)",
+        "conclusion": "success",
+        "started_at": "2026-10-04T08:22:45Z",
+        "completed_at": "2026-10-04T09:06:01Z",
+        "duration_seconds": 2596,
+        "html_url": "https://github.com/branchifeq/cva6/actions/runs/37186821074/job/111395534487",
+        "arch": "rv64",
+        "config": "cv64a6_imafdc_sv39_hpdcache",
+        "testcase": "dv-riscv-arch-test",
+        "simulator": "veri-testharness"
+      },
+      {
+        "name": "execute-riscv64-tests (cv64a6_imafdc_tests, cv64a6_imafdc_sv39_hpdcache_wb, veri-testharness)",
+        "conclusion": "success",
+        "started_at": "2026-10-04T08:18:45Z",
+        "completed_at": "2026-10-04T08:25:36Z",
+        "duration_seconds": 411,
+        "html_url": "https://github.com/branchifeq/cva6/actions/runs/37186821074/job/111395534490",
+        "arch": "rv64",
+        "config": "cv64a6_imafdc_sv39_hpdcache_wb",
+        "testcase": "cv64a6_imafdc_tests",
+        "simulator": "veri-testharness"
+      },
+      {
+        "name": "execute-riscv32-tests (cv32a6_tests, cv32a65x, veri-testharness)",
+        "conclusion": "success",
+        "started_at": "2026-10-04T08:18:44Z",
+        "completed_at": "2026-10-04T08:22:43Z",
+        "duration_seconds": 239,
+        "html_url": "https://github.com/branchifeq/cva6/actions/runs/37186821074/job/111395534497",
+        "arch": "rv32",
+        "config": "cv32a65x",
+        "testcase": "cv32a6_tests",
+        "simulator": "veri-testharness"
+      },
+      {
+        "name": "execute-riscv64-tests (dv-riscv-arch-test, cv64a6_imafdc_sv39_hpdcache_wb, veri-testharness)",
+        "conclusion": "success",
+        "started_at": "2026-10-04T08:18:44Z",
+        "completed_at": "2026-10-04T09:06:03Z",
+        "duration_seconds": 2839,
+        "html_url": "https://github.com/branchifeq/cva6/actions/runs/37186821074/job/111395534513",
+        "arch": "rv64",
+        "config": "cv64a6_imafdc_sv39_hpdcache_wb",
+        "testcase": "dv-riscv-arch-test",
+        "simulator": "veri-testharness"
+      },
+      {
+        "name": "execute-riscv64-tests (cv64a6_imafdc_tests, cv64a6_imafdc_sv39_hpdcache, veri-testharness)",
+        "conclusion": "success",
+        "started_at": "2026-10-04T08:18:44Z",
+        "completed_at": "2026-10-04T08:25:28Z",
+        "duration_seconds": 404,
+        "html_url": "https://github.com/branchifeq/cva6/actions/runs/37186821074/job/111395534518",
+        "arch": "rv64",
+        "config": "cv64a6_imafdc_sv39_hpdcache",
+        "testcase": "cv64a6_imafdc_tests",
+        "simulator": "veri-testharness"
+      },
+      {
+        "name": "execute-riscv64-tests (cv64a6_imafdc_tests, cv64a6_imafdc_sv39_wb, veri-testharness)",
+        "conclusion": "success",
+        "started_at": "2026-10-04T08:19:24Z",
+        "completed_at": "2026-10-04T08:25:31Z",
+        "duration_seconds": 367,
+        "html_url": "https://github.com/branchifeq/cva6/actions/runs/37186821074/job/111395534520",
+        "arch": "rv64",
+        "config": "cv64a6_imafdc_sv39_wb",
+        "testcase": "cv64a6_imafdc_tests",
+        "simulator": "veri-testharness"
+      }
+    ]
+  }
+]
